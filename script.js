@@ -1,6 +1,6 @@
 // Task 1
 // Question: Take a string number from prompt, convert it to number, add 10 and print the result.
-let n = prompt("Enter a number");
+let n = prompt("Enter a number ");
 n = Number(n);
 console.log(typeof n);
 n = n + 10;
@@ -199,7 +199,7 @@ for (let i = 1; i <= 50; i++) {
 
 // Task 25
 // Question: Print multiplication table for a given number
-let num6 = Number(prompt("Enter the number"));
+let num6 = Number(prompt("Enter the number for multiplication"));
 for (let i = 1; i <= 10; i++) {
   console.log(num6 + " * " + i + " = " + num6 * i);
 }
